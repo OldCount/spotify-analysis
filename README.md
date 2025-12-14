@@ -93,4 +93,4 @@ spotify-analysis/
 
 ## License
 
-This project was created for educational purposes as part of a university course.
+This project was created for educational purposes as part of the Data Science and Artificial Intelligence minor at Leiden University.
