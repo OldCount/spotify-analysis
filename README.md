@@ -69,13 +69,18 @@ MIN_ARTIST_SONGS = 5         # Minimum songs for artist analysis
 
 ```
 spotify-analysis/
-├── spotify_popularity.py    # Main analysis script
-├── dataset.csv              # Spotify dataset (not included)
+├── .gitignore
 ├── README.md
+├── requirements.txt
+├── spotify_popularity.py    # Main analysis script
+├── docs/
+│   └── presentation.pdf     # Project presentation
 └── outputs/                 # Generated visualizations
     ├── genre_popularity.png
     ├── artist_popularity.png
-    └── ...
+    ├── high_pop_genres_breakdown.png
+    ├── genre_representation_scatter.png
+    └── genre_champions_vs_underperformers.png
 ```
 
 ## Requirements
