@@ -33,7 +33,7 @@ Source: [Kaggle](https://www.kaggle.com/)
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/spotify-analysis.git
+git clone https://github.com/OldCount/spotify-analysis.git
 cd spotify-analysis
 
 # Install dependencies
