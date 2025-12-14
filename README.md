@@ -29,6 +29,12 @@ The Spotify dataset contains 114,000+ tracks with:
 
 Source: Source: [Spotify Tracks Attributes and Popularity](https://www.kaggle.com/datasets/melissamonfared/spotify-tracks-attributes-and-popularity/data) on Kaggle
 
+## Methodology
+
+We initially hypothesized that audio features (danceability, energy, valence) would predict popularity. 
+Correlation analysis showed weak relationships (see `exploratory/correlation_analysis.py`), 
+which led us to focus on genre efficiency instead.
+
 ## Installation
 
 ```bash
@@ -72,10 +78,17 @@ spotify-analysis/
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-├── spotify_popularity.py    # Main analysis script
+├── spotify_popularity.py         # Main analysis
+├── exploratory/                  
+│   ├── correlation_analysis.py              # Initial song 'mood' exploration.
+│   └── exploratory_visualizations/          # Initial correlation charts
+│        ├── correlation_absolute.png
+│        ├── correlation_lollipop.png
+│        ├── correlation_matrix.jpg
+│        └── correlation_strength.png
 ├── docs/
 │   └── presentation.pdf     # Project presentation
-└── outputs/                 # Generated visualizations
+└── outputs/                 # Final generated visualizations
     ├── genre_popularity.png
     ├── artist_popularity.png
     ├── high_pop_genres_breakdown.png
