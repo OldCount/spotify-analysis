@@ -27,7 +27,7 @@ The Spotify dataset contains 114,000+ tracks with:
 - **Audio features**: Danceability, energy, valence, tempo, loudness, etc.
 - **Metrics**: Popularity score (0-100), duration, explicit flag
 
-Source: [Kaggle](https://www.kaggle.com/)
+Source: Source: [Spotify Tracks Attributes and Popularity](https://www.kaggle.com/datasets/melissamonfared/spotify-tracks-attributes-and-popularity/data) on Kaggle
 
 ## Installation
 
@@ -37,12 +37,12 @@ git clone https://github.com/OldCount/spotify-analysis.git
 cd spotify-analysis
 
 # Install dependencies
-pip install pandas matplotlib numpy
+pip install -r requirements.txt
 ```
 
 ## Usage
 
-1. Place your Spotify dataset as `dataset.csv` in the project directory
+1. 1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/melissamonfared/spotify-tracks-attributes-and-popularity/data) and save it as `dataset.csv` in the project directory
 2. Run the analysis:
 
 ```bash
