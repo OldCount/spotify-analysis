@@ -4,7 +4,7 @@ An exploratory data analysis project examining patterns in music popularity usin
 
 ## Key Findings
 
-- **Dance music dominates**: With a 12.6x overperformance ratio, dance is the most efficient genre at producing hits—only 0.6% of the dataset, but 7.9% of high-popularity songs
+- **Dance music dominates**: With a 12.6x overperformance ratio, dance is the most efficient genre at producing hits: being only 0.6% of the dataset, but 7.9% of high-popularity songs
 - **Presence ≠ Success**: Larger genres (anime, synth-pop, garage) often underperform relative to their dataset size
 - **Audio features don't predict popularity**: Danceability, energy, valence, etc. showed weak correlations with song success-genre and artist matter more
 
